@@ -69,9 +69,33 @@ Thumbs.db
 Desktop.ini
 
 # Python / Django
+
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Django local database
 *.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python testing and coverage
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python build and packaging
+*.egg-info/
+.eggs/
+__pycache__/
